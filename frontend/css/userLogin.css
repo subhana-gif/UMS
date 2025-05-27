@@ -1,0 +1,91 @@
+/* Login Page Container */
+.login-container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 30px;
+    background: linear-gradient(to right, #4facfe, #00f2fe); /* Gradient Background */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+}
+
+/* Login Form */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Form Group */
+.form-group {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+/* Labels */
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Input Fields */
+.form-group input {
+    flex:1;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers the button */
+    margin-top: 10px;
+}
+
+/* Login Button */
+.login-button {
+    margin-left: 110px;
+    padding: 12px;
+    background-color: #218838; /* Gold */
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.login-button:hover {
+    opacity: 0.8;
+}
+
+/* Error Message */
+.error-message {
+    color: #ff4757; /* Red */
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* Register Section */
+.register-section {
+    margin-top: 20px;
+    font-size:25px
+}
+
+/* Register Link */
+.register-link {
+    color: #064b07;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,80 @@
+/* Admin Login Container */
+.admin-login-container {
+    max-width: 600px;  /* Increased width for more room */
+    margin: 60px auto;
+    padding: 35px;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    border-radius: 12px;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: white;
+}
+
+/* Heading */
+.admin-login-container h2 {
+    margin-bottom: 30px;
+    font-size: 36px;  /* Larger font size */
+    font-weight: bold;
+}
+
+/* Form */
+.admin-login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  /* Increased gap between elements */
+}
+
+/* Input Fields */
+.admin-form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.admin-form-group label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 26px;  /* Increased font size */
+}
+
+.admin-form-group input {
+    width: 95%;
+    padding: 14px;
+    font-size: 22px;  /* Larger input font size */
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+/* Center the Login Button */
+.admin-button-container {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;  /* More space above the button */
+}
+
+/* Login Button */
+.admin-login-button {
+    padding: 15px 25px;
+    background-color: #28a745;
+    color: white;
+    font-size: 22px;  /* Larger font size for the button */
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.admin-login-button:hover {
+    background-color: #218838;
+}
+
+/* Error Message */
+.admin-error-message {
+    color: #a21616;
+    font-size: 28px;  /* Larger error message */
+    margin-top: -8px;
+}
+    

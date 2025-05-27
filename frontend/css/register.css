@@ -1,0 +1,98 @@
+/* Container */
+.register-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 25px;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: white;
+}
+
+/* Heading */
+.register-container h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Form */
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Input Fields */
+.form-group {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Center the Register Button */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* Register Button */
+.register-button {
+    padding: 12px 20px;
+    margin-left: 110px;
+    background-color: #28a745;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #218838;
+}
+
+/* Error Message */
+.error-message {
+    color: #ff4d4d;
+    font-size: 20px;
+    margin-top: -5px;
+}
+
+/* Login Link */
+.login-link {
+    margin-top: 20px;
+}
+
+.login-link p {
+    font-size: 23px;
+}
+
+.login-link a {
+    color: #204508;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
